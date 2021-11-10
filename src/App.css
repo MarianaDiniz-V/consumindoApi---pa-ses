@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+    height: 100vh;
+
+    font-size: 40px;
+
+    color: #FFFFFF;
+    background-image: url('https://img.elo7.com.br/product/original/2FFE2C3/mapa-flag-mapa-em-corel-draw-ou-pdf-design-de-interiores.jpg');
+}
+input{
+    all: unset;
+
+    border: 1px solid #000000;
+    padding: 20px;
+
+    font-size: 20px;
+
+    width: 400px;
+
+    background-color: #000000;
+}
+input:hover{
+    border: 1px solid #FFFFFF;
+}
+.card{
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    border-radius: 20px;
+
+    background-color: #00000065;
+
+}
+img{
+    width: 250px;
+    border-radius: 20px;
+}
